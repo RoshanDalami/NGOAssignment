@@ -10,12 +10,14 @@ import About from './pages/About';
 function App() {
   return (
     <div className="App">
-      <NavBar/>
+      
       
       <Routes>
+        <Route path='/' element={<NavBar/>}>
         <Route path='/' element={<Home/>}/>
         <Route path='/activities' element={<Activities/>}/>
         <Route path='/about' element={<About/>}/>
+        </Route>
       </Routes>
     </div>
   );
