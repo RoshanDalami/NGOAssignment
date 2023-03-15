@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    justify-items: center;
+    /* background-color: rgb(255, 0, 0); */
+    border-radius: 30px;
+    
+   
+}
+.right{
+    margin-left: 60px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.image{
+    width: 500px;
+    height: 500px;
+    border-radius: 60%;
+    border: 10px rgb(9, 67, 192) solid;
+}
+.detail{
+    text-align: left;
+}
+
+.inner{
+    padding-left: 60px;
+    padding-right: 60px;
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 3px;
+    font-size: 30px;
+}
+.main{
+    font-family: 'Roboto Mono', monospace;
+    position: relative;
+    padding-left: 60px;
+    top: -60px;
+    font-size: 60px;
+    
+
+border-bottom: 5px solid rgb(9, 67, 192);
+    transition: border ease-in-out 30ms;
+    cursor: pointer;
+
+}

@@ -6,6 +6,7 @@ import ImageThird from "../assets/imageThird.jpeg";
 import Banner from "../Components/Banner";
 import Gallary from "../Components/Gallary";
 import MotiveArea from "../Components/MotiveArea";
+import President from "../Components/President";
 import classes from "./Home.module.css";
 function Home() {
   return (
@@ -40,6 +41,7 @@ function Home() {
     <MotiveArea/>
     <Banner/>
     <Gallary/>
+    <President/>
     
     </>
   );
