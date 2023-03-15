@@ -1,0 +1,8 @@
+.container{
+    display: grid;
+    height: 250px;
+    padding: 5px 60px;
+    background-color: #faedcd9f;
+    grid-template-columns: repeat(4,2fr);
+    align-items: center;
+}
