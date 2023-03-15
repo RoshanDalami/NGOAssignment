@@ -4,16 +4,9 @@
     /* border-radius: 60%; */
     
 }
-.title{
-    padding: 10px 0px;
-    font-size: 20px;
-    font-weight: 700;
-}
+
 .wrapper{
     margin: 10px 0;
     transition: all ease 30ms;
     cursor: pointer;
-}
-.wrapper:hover{
-    margin-top: -10px;
 }

@@ -4,6 +4,7 @@ import ImageFirst from "../assets/imageFirst.jpeg";
 import ImageSecond from "../assets/imageSecond.jpeg";
 import ImageThird from "../assets/imageThird.jpeg";
 import Banner from "../Components/Banner";
+import Gallary from "../Components/Gallary";
 import MotiveArea from "../Components/MotiveArea";
 import classes from "./Home.module.css";
 function Home() {
@@ -38,6 +39,7 @@ function Home() {
     </Carousel>
     <MotiveArea/>
     <Banner/>
+    <Gallary/>
     
     </>
   );
