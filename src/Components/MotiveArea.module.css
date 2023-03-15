@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+.motive{
+    border-top: white 3px solid;
+    background-color: #FAEDCD;
+    padding: 60px 30px;
+   
+}
+.speech{
+    font-size: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+    opacity: .75;
+}

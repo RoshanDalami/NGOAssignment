@@ -1,0 +1,22 @@
+.image{
+    height: 300px;
+}
+.card{
+    transition: all ease-in-out 5ms;
+    cursor: pointer;
+    width: 22rem
+}
+.card:hover{
+    margin-top: -10px;
+    box-shadow: 20px 20px 30px 15px rgba(176, 170, 170, 0.316);
+
+}
+
+
+
+@media only screen and (max-width: 700px) {
+   .card{
+    width: 15rem;
+   }
+  }
+

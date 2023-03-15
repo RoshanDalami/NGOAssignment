@@ -1,0 +1,15 @@
+.cards{
+    display: grid;
+    margin-top: 100px;
+    grid-template-columns: repeat(3,2fr);
+    align-items: center;
+    /* justify-content: center; */
+    justify-items: center;
+    grid-row-gap: 50px;
+   
+}
+@media only screen and (max-width: 700px) {
+    .cards{
+        grid-template-columns: 2fr;
+    }
+}

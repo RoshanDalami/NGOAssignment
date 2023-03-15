@@ -1,9 +1,9 @@
 import React from "react";
 import Carousel from "react-bootstrap/Carousel";
-
-import ImageFirst from "../assets/imageFirst.jpg";
-import ImageSecond from "../assets/imageSecond.jpg";
-import ImageThird from "../assets/imageThird.jpg";
+import ImageFirst from "../assets/imageFirst.jpeg";
+import ImageSecond from "../assets/imageSecond.jpeg";
+import ImageThird from "../assets/imageThird.jpeg";
+import MotiveArea from "../Components/MotiveArea";
 import classes from "./Home.module.css";
 function Home() {
   return (
@@ -35,6 +35,7 @@ function Home() {
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
+    <MotiveArea/>
     
     </>
   );

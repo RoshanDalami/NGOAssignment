@@ -16,6 +16,7 @@ function NavBar() {
             <NavLink to={'/'} className={classes.item}>Home</NavLink>
             <NavLink to={'/activities'} className={classes.item}>Activities</NavLink>
             <NavLink to={'/about'} className={classes.item}>About us</NavLink>
+            <NavLink to={'/team'} className={classes.item}>Our Team</NavLink>
           </Nav>
         </Container>
       </Navbar>
