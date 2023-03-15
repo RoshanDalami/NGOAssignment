@@ -5,14 +5,16 @@
     box-sizing: border-box;
 }
 .logo{
-    font-family: 'Bebas Neue', cursive;
-    color: white;
-    font-size: 30px;
-    text-decoration: none;
+
+color: white;
+text-decoration: none;
+font-size: 30px;
+
+
+
 }
 .logo:hover{
-    color: #fff;
-
+    color: white;
 }
 .item{
     text-decoration: none;
@@ -22,4 +24,51 @@
 }
 .item:hover{
     color:#AA77FF;
+    
 }
+.logoImg{
+    border-radius: 60%;
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+
+}
+
+@media only screen and (max-width: 700px) {
+    .item{
+        font-size: 10px;
+        padding: 0 5px;
+        
+    }
+    .logo{
+        font-size: 15px;
+    }
+    .logoImg{
+        width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    }
+   }
+   @media only screen and (max-width: 1000px) {
+    .item{
+        font-size: 15px ;
+        padding: 0 15px;
+    }
+    .logoImg{
+        width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    }
+   
+}
+@media only screen and (max-width: 500px) {
+    .item{
+        font-size: 10px;
+        padding: 0 5px;
+    }
+    .logoImg{
+        width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    }
+   }

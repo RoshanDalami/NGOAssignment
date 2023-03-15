@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+/* .container{
+    padding: 0 60px;
+} */
+.motive{
+    border-top: white 3px solid;
+    /* background-color: #efe9dc; */
+    padding: 60px 30px;
+
+   
+}
+.speech{
+    font-size: 20px;
+    cursor: pointer;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 0 60px;
+    opacity: .75;
+}
+.speech:hover{
+    box-shadow: 20px 30px 30px 15px rgba(176, 170, 170, 0.316);
+}
