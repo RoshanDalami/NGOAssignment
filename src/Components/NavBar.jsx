@@ -3,6 +3,7 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import { Link, NavLink, Outlet } from "react-router-dom";
 import Logo from "../assets/logo.jpeg";
+import Footer from "./Footer";
 import classes from "./NavBar.module.css";
 
 function NavBar() {
@@ -30,6 +31,7 @@ function NavBar() {
         </Container>
       </Navbar>
       <Outlet />
+      <Footer/>
     </>
   );
 }

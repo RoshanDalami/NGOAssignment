@@ -9,6 +9,8 @@ function BannerCard(props) {
         <h3 className={classes.title}>
             {props.title}
         </h3>
+        
+
       </div>
     </>
   )

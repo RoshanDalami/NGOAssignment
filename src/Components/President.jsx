@@ -1,6 +1,7 @@
 import React from 'react'
+import { FaPhoneAlt } from "react-icons/fa";
 import classes from './President.module.css'
-import PresidentImage from '../assets/president.jpeg'
+import PresidentImage from '../assets/president.jpg'
 function President() {
     const detail = {
         name : 'NARESH RIJAL',
@@ -18,7 +19,7 @@ function President() {
         <div className={classes.inner}>
         <h3>Name : {detail.name}</h3>
             &nbsp;
-            <h4>Tel : { detail.phone}</h4>
+            <h4><FaPhoneAlt className={classes.phone}/> &nbsp;: { detail.phone}</h4>
         </div>
             
         </section>
