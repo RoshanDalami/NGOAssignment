@@ -41,19 +41,23 @@ const TeamData = [
         image : Image8,
 
     },
-    {
-        name : "Mr. Saroj Tamang" ,
-        position: 'Member' ,
-        image : Image9,
-
-    },
-    
-    
     
     {
         name : "Mr.Sanu kaji Thapa" ,
         position: 'Advisor' ,
         image : Image5,
+
+    },
+    {
+        name : "Hon'ble Hira Gurung" ,
+        position: 'Special Advisor' ,
+        image : Image6,
+
+    },
+    {
+        name : "Mr. Saroj Tamang" ,
+        position: 'Member' ,
+        image : Image9,
 
     },
     {
@@ -68,12 +72,7 @@ const TeamData = [
         image : Image7,
 
     },
-    {
-        name : "Hon'ble Hira Gurung" ,
-        position: 'Special Advisor' ,
-        image : Image6,
-
-    },
+   
     
    
 ]

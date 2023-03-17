@@ -14,6 +14,39 @@
     text-shadow: 3px 4px #00000054;
 }
 .image{
-   
     border-radius: 60%;
+}
+.paraDiv{
+    background: linear-gradient(to top,  #8241dd79 200px, #f7f7f7 );
+ margin-top: 20px;
+}
+.maintext{
+    font-size: 25px;
+    padding: 30px 80px;
+    font-weight: 500;
+    opacity: .7;
+    letter-spacing: 2px;
+    color: #000;
+    text-shadow: 2px 2px #00000054;
+
+}
+.works{
+    margin-top: 50px;
+}
+.workHead{
+    letter-spacing: 12px;
+    margin-bottom: 40px;
+    text-decoration: underline;
+   
+}
+.workList{
+    text-align: left;
+    margin-left: 400px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.workList::before{
+    content: '👉';
+    font-size: 30px;
+    margin-right: 10px;
 }
