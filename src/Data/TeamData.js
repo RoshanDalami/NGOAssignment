@@ -8,6 +8,7 @@ import Image6 from '../assets/TeamImage6.jpeg'
 import Image7 from '../assets/TeamImage7.jpg'
 import Image8 from '../assets/TeamImage8.jpeg'
 import Image9 from '../assets/TeamImage9.jpeg'
+import Image10 from '../assets/TeamImage10.jpeg'
 
 
 const TeamData = [
@@ -27,6 +28,12 @@ const TeamData = [
         name : "Ms. Sujina Bhatta" ,
         position: 'General Secretary' ,
         image : Image3,
+
+    },
+    {
+        name : "Ms. Mikmar Bhote" ,
+        position: 'Secretary' ,
+        image : Image10,
 
     },
     {

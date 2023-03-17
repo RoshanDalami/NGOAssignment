@@ -9,7 +9,7 @@ function Activities() {
   })
   return (
     <>
-     <h1>Our Activities</h1>
+     <h1 className={classes.head}>Our Activities</h1>
       <div className={classes.cards}>
      
         {items}
