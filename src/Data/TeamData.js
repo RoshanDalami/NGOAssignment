@@ -8,6 +8,7 @@ import Image6 from '../assets/TeamImage6.jpeg'
 import Image7 from '../assets/TeamImage7.jpg'
 import Image8 from '../assets/TeamImage8.jpeg'
 import Image9 from '../assets/TeamImage9.jpeg'
+import Image10 from '../assets/TeamImage10.jpeg'
 
 
 const TeamData = [
@@ -30,6 +31,12 @@ const TeamData = [
 
     },
     {
+        name : "Ms. Mikmar Bhote" ,
+        position: 'Secretary' ,
+        image : Image10,
+
+    },
+    {
         name : "Mr. Dhinduk Bhote " ,
         position: 'International Relation Representative' ,
         image : Image2,
@@ -41,19 +48,23 @@ const TeamData = [
         image : Image8,
 
     },
-    {
-        name : "Mr. Saroj Tamang" ,
-        position: 'Member' ,
-        image : Image9,
-
-    },
-    
-    
     
     {
         name : "Mr.Sanu kaji Thapa" ,
         position: 'Advisor' ,
         image : Image5,
+
+    },
+    {
+        name : "Hon'ble Hira Gurung" ,
+        position: 'Special Advisor' ,
+        image : Image6,
+
+    },
+    {
+        name : "Mr. Saroj Tamang" ,
+        position: 'Member' ,
+        image : Image9,
 
     },
     {
@@ -68,12 +79,7 @@ const TeamData = [
         image : Image7,
 
     },
-    {
-        name : "Hon'ble Hira Gurung" ,
-        position: 'Special Advisor' ,
-        image : Image6,
-
-    },
+   
     
    
 ]

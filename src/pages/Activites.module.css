@@ -9,3 +9,8 @@
     grid-row-gap: 50px;
    
 }
+.head{
+    margin-top: 50px;
+    font-size: 50px;
+    letter-spacing: 5px;
+}

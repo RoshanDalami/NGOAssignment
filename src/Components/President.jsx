@@ -17,9 +17,7 @@ function President() {
         <section className={classes.detail}>
         <h1 className={classes.main}>President</h1>
         <div className={classes.inner}>
-        <h3>Name : {detail.name}</h3>
-            &nbsp;
-            <h4><FaPhoneAlt className={classes.phone}/> &nbsp;: { detail.phone}</h4>
+        <p className={classes.presidentPara}>" Empowering our youth today will pave the way for a brighter and more equitable tomorrow "</p>
         </div>
             
         </section>
