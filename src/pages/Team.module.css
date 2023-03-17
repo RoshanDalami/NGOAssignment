@@ -1,0 +1,23 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,2fr);
+    /* background: linear-gradient(to right, #a2ea4c 200px, #07aa43 200px, #f7f7f7 ); */
+   
+    padding-bottom: 100px;
+}
+.main{
+    background-image: linear-gradient(rgba(255, 0, 0, 0.148), rgba(0, 0, 255, 0.165));
+
+}
+.text{
+    font-size: 50px;
+    padding-top: 50px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all ease-in-out 10s;
+    transform-origin: left;
+}
+.text:hover{
+    text-decoration: underline;
+
+}
