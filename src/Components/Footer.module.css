@@ -35,5 +35,34 @@
     font-size: 25px;
     letter-spacing: 5px;
     color: white;
+cursor: pointer;
     text-decoration: none;
+}
+.link{
+    text-decoration: none;
+    color: #fff;
+}
+.link:hover{
+    color: #fff;
+}
+.social{
+    
+    display: flex;
+    margin-top: 40px;
+    align-items: flex-start;
+
+}
+.socialItem{
+    padding: 5px 15px;
+    font-size: 50px;
+}
+
+.copy{
+    color: rgb(37, 36, 36);
+    display: grid;
+    grid-template-columns: 3fr;
+}
+.copyItem{
+    position: relative;
+    color: #ffffff6c;
 }
