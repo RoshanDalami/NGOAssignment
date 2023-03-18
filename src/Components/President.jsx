@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaPhoneAlt } from "react-icons/fa";
+
 import classes from './President.module.css'
 import PresidentImage from '../assets/president.jpg'
 function President() {
