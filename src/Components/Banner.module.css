@@ -6,3 +6,10 @@
     grid-template-columns: repeat(4,2fr);
     align-items: center;
 }
+
+@media screen and (max-width:672px) {
+    .container{
+        grid-template-columns: 1fr;
+        height: 900px;
+    }
+}

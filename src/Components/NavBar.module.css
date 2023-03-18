@@ -10,8 +10,6 @@ color: white;
 text-decoration: none;
 font-size: 30px;
 
-
-
 }
 .logo:hover{
     color: white;
@@ -34,3 +32,20 @@ font-size: 30px;
 
 }
 
+@media screen and  (max-width:672px) {
+    .logo{
+        font-size: 10px;
+    }
+    .logoImg{
+        width: 30px;
+        height: 30px;
+    }
+    .item{
+        
+        font-size: 10px;
+       padding: 0 5px; 
+    }
+}
+@media screen and (min-width:700px) and (max-width:1000px) {
+    
+  }

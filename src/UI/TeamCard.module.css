@@ -59,3 +59,17 @@
   border: 1px solid rgba(4, 104, 244, 0.21);
 }
 
+@media  screen and (max-width:700px) {
+  .image {
+    height: 200px;
+    width: 200px;
+    border-radius: 150px;
+  }
+  
+}
+@media screen and (min-width:700) and (max-width:1000px) {
+  .image{
+    height: 250px;
+    width: 250px;
+  }
+}
