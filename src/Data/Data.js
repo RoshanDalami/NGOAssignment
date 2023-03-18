@@ -10,23 +10,19 @@ import Image7 from '../assets/CardImage7.jpeg'
 
 const Data = [
     {
-        title : 'Planting',
-        Description : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius est consequatur fugiat provident, fuga, beatae odit officia, laborum laudantium eligendi ea eum accusantium quidem! Sit adipisci dolore delectus laudantium laborum.",
+        title : 'Plantation Work',
+        Description : "Plantation agriculture has a long history, dating back to the colonial period when European powers established colonies and exploited the natural resources of their colonies for economic gain. ",
         image : Image1
     },
     {
-        title : 'Planting',
-        Description : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius est consequatur fugiat provident, fuga, beatae odit officia, laborum laudantium eligendi ea eum accusantium quidem! Sit adipisci dolore delectus laudantium laborum.",
+        title : 'International Youth Day',
+        Description : "International Youth Day is a United Nations observance that takes place annually on August 12th. The day was first designated in 1999 by the UN General Assembly to raise awareness of the challenges and opportunities faced by young people worldwide.",
         image : Image2
     },
+    
     {
-        title : 'Planting',
-        Description : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius est consequatur fugiat provident, fuga, beatae odit officia, laborum laudantium eligendi ea eum accusantium quidem! Sit adipisci dolore delectus laudantium laborum.",
-        image : Image4
-    },
-    {
-        title : 'Planting',
-        Description : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius est consequatur fugiat provident, fuga, beatae odit officia, laborum laudantium eligendi ea eum accusantium quidem! Sit adipisci dolore delectus laudantium laborum.",
+        title : 'Open Government Partnership',
+        Description : " The Open Government Partnership (OGP) is a global initiative launched in 2011 that aims to promote transparency, accountability, citizen participation, and technology and innovation in government.  ",
         image : Image5
     },
     {

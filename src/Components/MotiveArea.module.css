@@ -20,3 +20,15 @@
 .speech:hover{
     box-shadow: 20px 30px 30px 15px rgba(176, 170, 170, 0.316);
 }
+
+@media screen and (max-width:700px){
+    .speech{
+        font-size: 16px;
+        padding: 0px 10px;
+        text-align: center;
+    }
+    .motive{
+        padding: 30px 15px;
+    }
+
+}
