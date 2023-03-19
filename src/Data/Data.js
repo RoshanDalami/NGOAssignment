@@ -26,13 +26,13 @@ const Data = [
         image : Image5
     },
     {
-        title : 'Planting',
-        Description : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius est consequatur fugiat provident, fuga, beatae odit officia, laborum laudantium eligendi ea eum accusantium quidem! Sit adipisci dolore delectus laudantium laborum.",
+        title : 'National Youth Facilitated programme',
+        Description : "A National Youth Facilitated Program is a program that is designed and facilitated by young people to address issues that affect them and their communities. ",
         image : Image6
     },
     {
-        title : 'Planting',
-        Description : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius est consequatur fugiat provident, fuga, beatae odit officia, laborum laudantium eligendi ea eum accusantium quidem! Sit adipisci dolore delectus laudantium laborum.",
+        title : 'Youth parliament practice',
+        Description : "Youth parliament is a practice in which young people come together to discuss and debate issues that affect them and their communities, and to develop proposals and recommendations for policy makers.",
         image : Image7
     },
 ]
