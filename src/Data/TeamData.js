@@ -9,6 +9,7 @@ import Image7 from '../assets/TeamImage7.jpg'
 import Image8 from '../assets/TeamImage8.jpeg'
 import Image9 from '../assets/TeamImage9.jpeg'
 import Image10 from '../assets/TeamImage10.jpeg'
+import Image11 from '../assets/TeamImage11.jpg'
 
 
 const TeamData = [
@@ -53,6 +54,12 @@ const TeamData = [
         name : "Mr.Sanu kaji Thapa" ,
         position: 'Advisor' ,
         image : Image5,
+
+    },
+    {
+        name : "Mr. Pasang Nurbu Sherpa" ,
+        position: 'Special Advisor' ,
+        image : Image11,
 
     },
     {
