@@ -10,6 +10,7 @@ import Image8 from '../assets/TeamImage8.jpeg'
 import Image9 from '../assets/TeamImage9.jpeg'
 import Image10 from '../assets/TeamImage10.jpeg'
 import Image11 from '../assets/TeamImage11.jpg'
+import Image12 from '../assets/TeamImage12.jpeg'
 
 
 const TeamData = [
@@ -60,6 +61,12 @@ const TeamData = [
         name : "Mr. Pasang Nurbu Sherpa" ,
         position: 'Special Advisor' ,
         image : Image11,
+
+    },
+    {
+        name : "Mr. Pierre René Heymann" ,
+        position: 'International  committee and Health Advisor' ,
+        image : Image12,
 
     },
     {

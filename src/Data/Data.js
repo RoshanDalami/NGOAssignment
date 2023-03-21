@@ -7,6 +7,8 @@ import Image5 from '../assets/CardImage5.jpeg'
 import Image6 from '../assets/CardImage6.jpeg'
 import Image7 from '../assets/CardImage7.jpeg'
 import Image8 from '../assets/CardImage8.jpeg'
+import Image9 from '../assets/CardImage9.jpeg'
+import Image10 from '../assets/CardImage10.jpeg'
 
 
 const Data = [
@@ -40,6 +42,16 @@ const Data = [
         title : 'Women and Health Training Workshop Partnerships  Denmark 🇩🇰 Doctors ',
         Description : "Yes we are intending improving and changing our community by using sustainable development goal No: 3 and their Policy and its true  finally we gave special oppourtunity to the Denish Doctors and their team for women health and the maturnity.Thank you Social welfare council team, Support Umbrella Team and Nepalese Nurses.",
         image : Image8
+    },
+    {
+        title : 'Women and Health Training Workshop Partnerships  Denmark 🇩🇰 Doctors ',
+        Description : "Yes we are intending improving and changing our community by using sustainable development goal No: 3 and their Policy and its true  finally we gave special oppourtunity to the Denish Doctors and their team for women health and the maturnity.Thank you Social welfare council team, Support Umbrella Team and Nepalese Nurses.",
+        image : Image9
+    },
+    {
+        title : 'Women and Health Training Workshop Partnerships  Denmark 🇩🇰 Doctors ',
+        Description : "Yes we are intending improving and changing our community by using sustainable development goal No: 3 and their Policy and its true  finally we gave special oppourtunity to the Denish Doctors and their team for women health and the maturnity.Thank you Social welfare council team, Support Umbrella Team and Nepalese Nurses.",
+        image : Image10
     },
 ]
 
