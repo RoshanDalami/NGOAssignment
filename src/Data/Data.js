@@ -6,6 +6,7 @@ import Image2 from '../assets/CardImage2.jpeg'
 import Image5 from '../assets/CardImage5.jpeg'
 import Image6 from '../assets/CardImage6.jpeg'
 import Image7 from '../assets/CardImage7.jpeg'
+import Image8 from '../assets/CardImage8.jpeg'
 
 
 const Data = [
@@ -35,6 +36,14 @@ const Data = [
         Description : "Youth parliament is a practice in which young people come together to discuss and debate issues that affect them and their communities, and to develop proposals and recommendations for policy makers.",
         image : Image7
     },
+    {
+        title : 'Women and Health Training Workshop Partnerships  Denmark 🇩🇰 Doctors ',
+        Description : "Yes we are intending improving and changing our community by using sustainable development goal No: 3 and their Policy and its true  finally we gave special oppourtunity to the Denish Doctors and their team for women health and the maturnity.Thank you Social welfare council team, Support Umbrella Team and Nepalese Nurses.",
+        image : Image8
+    },
 ]
 
 export default Data;
+
+
+

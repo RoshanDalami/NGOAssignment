@@ -64,7 +64,7 @@ const TeamData = [
     },
     {
         name : "Hon'ble Hira Gurung" ,
-        position: 'Special Advisor' ,
+        position: 'Member' ,
         image : Image6,
 
     },
