@@ -39,19 +39,6 @@ const TeamData = [
 
     },
     {
-        name : "Mr. Dhinduk Bhote " ,
-        position: 'International Relation Representative' ,
-        image : Image2,
-
-    },
-    {
-        name : "Mr. Sonam Tenzin" ,
-        position: 'Youth coordinator' ,
-        image : Image8,
-
-    },
-    
-    {
         name : "Mr.Sanu kaji Thapa" ,
         position: 'Advisor' ,
         image : Image5,
@@ -65,10 +52,24 @@ const TeamData = [
     },
     {
         name : "Mr. Pierre René Heymann" ,
-        position: 'International  committee and Health Advisor' ,
+        position: 'International  committee and Life Advisor' ,
         image : Image12,
 
     },
+    {
+        name : "Mr. Dhinduk Bhote " ,
+        position: 'International Relation Representative' ,
+        image : Image2,
+
+    },
+    {
+        name : "Mr. Sonam Tenzin" ,
+        position: 'Youth coordinator' ,
+        image : Image8,
+
+    },
+    
+   
     {
         name : "Hon'ble Hira Gurung" ,
         position: 'Member' ,
