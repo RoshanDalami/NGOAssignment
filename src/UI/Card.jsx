@@ -15,7 +15,7 @@ function BasicCard(props) {
       <Card.Img variant="top" src={props.image} className={classes.image} />
       <Card.Body>
         <Card.Title>{props.title}</Card.Title>
-        {button && <Card.Text>{props.description}</Card.Text>}
+        {button && <Card.Text className={classes.description}>{props.description}</Card.Text>}
         <Button variant="primary" onClick={buttonHandler}>
           Read More
         </Button>
