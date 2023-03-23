@@ -52,7 +52,7 @@ const TeamData = [
     },
     {
         name : "Mr. Pierre René Heymann" ,
-        position: 'International  committee and Life Advisor' ,
+        position: 'International  committee and Life time Health Advisor' ,
         image : Image12,
 
     },
