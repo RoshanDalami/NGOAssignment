@@ -65,7 +65,10 @@ cursor: pointer;
     position: relative;
     color: #ffffff6c;
 }
-
+.checkMails{
+    font-size: 20px;
+    margin-top: 30px;
+}
 @media  screen and (max-width:700px) {
     .container{
 

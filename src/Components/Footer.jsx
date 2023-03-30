@@ -44,11 +44,14 @@ function Footer() {
                 
               </div>
               <div className={classes.socialItem}>
-              <a className={classes.link} href={"mailto:info@supportumbrella.org.np"}>
+              <a className={classes.link} href={"mailto:info@supportumbrellanepal.org"}>
               <MdEmail />
               </a>
-
-                
+              </div>
+              <div className={classes.socialItem}>
+              <a className={classes.link} href={"https://sso.godaddy.com/login?realm=pass&app=ox"} target={'_blank'}>
+              <p className={classes.checkMails}>Check Mails</p>
+              </a>
               </div>
             </div>
           </div>
