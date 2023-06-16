@@ -11,6 +11,7 @@ import Image9 from '../assets/TeamImage9.jpeg'
 import Image10 from '../assets/TeamImage10.jpeg'
 import Image11 from '../assets/TeamImage11.jpg'
 import Image12 from '../assets/TeamImage12.jpeg'
+import Image13 from '../assets/TeamImage13.jpeg';
 
 
 const TeamData = [
@@ -33,9 +34,9 @@ const TeamData = [
 
     },
     {
-        name : "Ms. Mikmar Bhote" ,
+        name : "Mr. Ngawang Choedak Lama" ,
         position: 'Secretary' ,
-        image : Image10,
+        image : Image13,
 
     },
     {

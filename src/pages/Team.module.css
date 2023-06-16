@@ -1,8 +1,9 @@
 .container{
-    display: grid;
-    grid-template-columns: repeat(3,2fr);
+    display: flex;
+    /* grid-template-columns: repeat(3,2fr); */
     /* background: linear-gradient(to right, #a2ea4c 200px, #07aa43 200px, #f7f7f7 ); */
-   
+   flex-wrap: wrap;
+   justify-content: center;
     padding-bottom: 100px;
 }
 .main{
