@@ -8,10 +8,12 @@ import Image6 from '../assets/TeamImage6.jpeg'
 import Image7 from '../assets/TeamImage7.jpg'
 import Image8 from '../assets/TeamImage8.jpeg'
 import Image9 from '../assets/TeamImage9.jpeg'
-import Image10 from '../assets/TeamImage10.jpeg'
 import Image11 from '../assets/TeamImage11.jpg'
 import Image12 from '../assets/TeamImage12.jpeg'
-import Image13 from '../assets/TeamImage13.jpeg';
+import Image13 from '../assets/TeamImage13.jpeg'
+import Image14 from '../assets/TeamImage14.jpeg'
+import Image15 from '../assets/TeamImage15.jpeg'
+import Image16 from '../assets/TeamImage16.jpeg'
 
 
 const TeamData = [
@@ -34,9 +36,9 @@ const TeamData = [
 
     },
     {
-        name : "Mr. Ngawang Choedak Lama" ,
+        name : "Mr. Jisnu prasad paudel" ,
         position: 'Secretary' ,
-        image : Image13,
+        image : Image16,
 
     },
     {
@@ -93,6 +95,12 @@ const TeamData = [
         name : "Mr. Roshan Dalami" ,
         position: 'Member' ,
         image : Image7,
+
+    },
+    {
+        name : "Miss Muna Gurung" ,
+        position: 'Member' ,
+        image : Image15,
 
     },
    
