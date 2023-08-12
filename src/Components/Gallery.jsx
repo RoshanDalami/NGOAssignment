@@ -17,6 +17,7 @@ function Gallery() {
 
   return (
     <>
+    
       <h2 className={classes.gallery}>Our Gallery</h2>
       <div className={classes.container}>{gallery}</div>
     </>
