@@ -5,13 +5,15 @@ import Image3 from '../assets/TeamImage3.jpeg'
 import Image4 from '../assets/TeamImage4.jpg'
 import Image5 from '../assets/TeamImage5.jpeg'
 import Image6 from '../assets/TeamImage6.jpeg'
-import Image7 from '../assets/TeamImage7.jpg'
+// import Image7 from '../assets/TeamImage7.jpg'
 
 import Image9 from '../assets/TeamImage9.jpeg'
 import Image11 from '../assets/TeamImage11.jpg'
 import Image12 from '../assets/TeamImage12.jpeg'
-import Image15 from '../assets/TeamImage15.jpeg'
+
 import Image16 from '../assets/TeamImage17.jpeg'
+import Image18 from '../assets/TeamImage18.jpeg'
+import Image19 from '../assets/TeamImage19.jpeg'
 
 
 
@@ -35,6 +37,12 @@ const TeamData = [
 
     },
     {
+        name : "Mr. Tsering Wangyal Lama" ,
+        position: 'Secretary' ,
+        image : Image19,
+
+    },
+    {
         name : "Mr.Sanu kaji Thapa" ,
         position: 'Advisor' ,
         image : Image5,
@@ -46,6 +54,13 @@ const TeamData = [
         image : Image16,
 
     },
+    {
+        name : "Mr. Thakchek Bhote" ,
+        position: 'Central Committee Member' ,
+        image : Image18,
+
+    },
+    
     {
         name : "Mr. Pasang Nurbu Sherpa" ,
         position: 'Special Advisor' ,
@@ -79,15 +94,11 @@ const TeamData = [
     {
         name : "Mr. Roshan Dalami" ,
         position: 'Member' ,
-        image : Image7,
+        image : 'https://firebasestorage.googleapis.com/v0/b/weugly-94422.appspot.com/o/bamya2ndLot.jpg?alt=media&token=76cd814b-f93d-46c1-857c-26e8197a1b28',
 
     },
-    {
-        name : "Miss Muna Gurung" ,
-        position: 'Member' ,
-        image : Image15,
-
-    },
+    
+    
    
     
    
