@@ -54,7 +54,7 @@ const TeamData = [
   },
   {
     name: "Mr. Pasang Phonto Gurung",
-    position: "Central Committee Member",
+    position: "International  Youth Coordinator",
     image: Image21,
   },
 
@@ -70,7 +70,7 @@ const TeamData = [
   },
   {
     name: "Mr. Chyawa Bhote Chawa",
-    position: "International  Youth Coordinator",
+    position: "Central Committee Member",
     image: Image20,
   },
 
