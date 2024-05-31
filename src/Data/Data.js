@@ -17,9 +17,31 @@ import Image15 from '../assets/CardImage15.jpeg'
 import Image16 from '../assets/CardImage16.jpeg'
 import Image17 from '../assets/CardImage17.jpeg'
 import Image18 from '../assets/CardImage18.jpeg'
-
-
+import Image19 from "../assets/cardImage19.jpeg"
+import Image20 from "../assets/cardImage20.jpeg"
+import Image21 from "../assets/cardImage21.jpeg"
+import Image22 from "../assets/cardImage22.jpeg"
 const Data = [
+    {
+        title : 'MUN Conference 2024',
+        Description : "",
+        image : Image19
+    },
+    {
+        title : 'MUN Conference 2024',
+        Description : "",
+        image : Image20
+    },
+    {
+        title : 'MUN Conference 2024',
+        Description : "",
+        image : Image21
+    },
+    {
+        title : 'MUN Conference 2024',
+        Description : "",
+        image : Image22
+    },
     {
         title : 'Plantation Work',
         Description : "Plantation agriculture has a long history, dating back to the colonial period when European powers established colonies and exploited the natural resources of their colonies for economic gain. ",
@@ -101,6 +123,7 @@ const Data = [
         Description : "International Youth Day is an annual observance dedicated to celebrating the contributions, potential, and achievements of young people around the world. Recognized on August 12th, it provides a platform to raise awareness about the challenges and issues faced by youth, while also promoting their engagement in various social, political, and economic spheres.",
         image : Image18
     },
+    
 
 ]
 
