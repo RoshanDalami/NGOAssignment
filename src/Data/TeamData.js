@@ -15,6 +15,7 @@ import Image19 from "../assets/TeamImage19.jpeg";
 import Image20 from "../assets/TeamImage20.jpeg";
 import Image21 from "../assets/TeamImage21.jpeg";
 import Image22 from "../assets/TeamImage22.jpeg";
+import Image23 from "../assets/TeamImage23.jpeg";
 
 const TeamData = [
   {
@@ -33,9 +34,9 @@ const TeamData = [
     image: Image3,
   },
   {
-    name: "Mr. Tsering Wangyal Lama",
+    name: "Mr. Dorchi Ngomba",
     position: "Secretary",
-    image: Image19,
+    image: Image23,
   },
   {
     name: "Mr.Sanu kaji Thapa",
@@ -73,7 +74,6 @@ const TeamData = [
     position: "Central Committee Member",
     image: Image20,
   },
-
   {
     name: "Hon'ble Hira Gurung",
     position: "Member",
