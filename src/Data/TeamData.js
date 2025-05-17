@@ -6,16 +6,13 @@ import Image4 from "../assets/TeamImage4.jpg";
 import Image5 from "../assets/TeamImage5.jpeg";
 import Image6 from "../assets/TeamImage6.jpeg";
 // import Image7 from '../assets/TeamImage7.jpg'
-
 import Image11 from "../assets/TeamImage11.jpg";
 import Image12 from "../assets/TeamImage12.jpeg";
-
-import Image18 from "../assets/TeamImage18.jpeg";
-import Image19 from "../assets/TeamImage19.jpeg";
 import Image20 from "../assets/TeamImage20.jpeg";
 import Image21 from "../assets/TeamImage21.jpeg";
-import Image22 from "../assets/TeamImage22.jpeg";
 import Image23 from "../assets/TeamImage23.jpeg";
+import Image24 from "../assets/TeamImage24.jpeg";
+import Image25 from "../assets/TeamImage25.jpeg";
 
 const TeamData = [
   {
@@ -44,14 +41,14 @@ const TeamData = [
     image: Image5,
   },
   {
-    name: "Mr. Ram kumar Gurung",
+    name: "Mr. Bhupal Bhadur Thapa Magar",
     position: "International Relation Representative",
-    image: Image22,
+    image: Image25,
   },
   {
-    name: "Mr. Thakchek Bhote",
+    name: "Mr. Khemraj Giri",
     position: "Central Committee Member",
-    image: Image18,
+    image: Image24,
   },
   {
     name: "Mr. Pasang Phonto Gurung",
