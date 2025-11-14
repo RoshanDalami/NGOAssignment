@@ -13,7 +13,8 @@ import Image21 from "../assets/TeamImage21.jpeg";
 import Image23 from "../assets/TeamImage23.jpeg";
 import Image24 from "../assets/TeamImage24.jpeg";
 import Image25 from "../assets/TeamImage25.jpeg";
-
+import Image26 from "../assets/TeamImage26.jpeg";
+import Image27 from "../assets/TeamImage27.jpeg";
 const TeamData = [
   {
     name: "Mr. Naresh Rijal",
@@ -24,6 +25,11 @@ const TeamData = [
     name: "Mr. Dipesh Rijal",
     position: "Vice-President",
     image: Image1,
+  },
+  {
+    name: "Mr. Mahesh Pande",
+    position: "Executive Vice-President",
+    image: Image27,
   },
   {
     name: "Ms. Sujina Bhatta",
@@ -40,11 +46,11 @@ const TeamData = [
     position: "Advisor",
     image: Image5,
   },
-  {
-    name: "Mr. Bhupal Bhadur Thapa Magar",
-    position: "International Relation Representative",
-    image: Image25,
-  },
+  // {
+  //   name: "Mr. Bhupal Bhadur Thapa Magar",
+  //   position: "International Relation Representative",
+  //   image: Image25,
+  // },
   {
     name: "Mr. Khemraj Giri",
     position: "Central Committee Member",
@@ -67,9 +73,9 @@ const TeamData = [
     image: Image12,
   },
   {
-    name: "Mr. Chyawa Bhote Chawa",
+    name: "Mr. Lalit Roka ",
     position: "Central Committee Member",
-    image: Image20,
+    image: Image26,
   },
   {
     name: "Hon'ble Hira Gurung",
