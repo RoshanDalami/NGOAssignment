@@ -52,13 +52,13 @@ const TeamData = [
   //   image: Image25,
   // },
   {
-    name: "Mr. Khemraj Giri",
+    name: "Lopsang Bhote",
     position: "Central Committee Member",
     image: Image24,
   },
   {
     name: "Mr. Pasang Phonto Gurung",
-    position: "International  Youth Coordinator",
+    position: "Central Committee Member",
     image: Image21,
   },
 
