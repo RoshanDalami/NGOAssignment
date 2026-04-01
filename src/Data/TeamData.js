@@ -10,7 +10,7 @@ import Image11 from "../assets/TeamImage11.jpg";
 import Image12 from "../assets/TeamImage12.jpeg";
 import Image20 from "../assets/TeamImage20.jpeg";
 import Image21 from "../assets/TeamImage21.jpeg";
-import Image23 from "../assets/TeamImage23.jpeg";
+// import Image23 from "../assets/TeamImage23.jpeg";
 import Image24 from "../assets/TeamImage24.jpeg";
 import Image25 from "../assets/TeamImage25.jpeg";
 import Image26 from "../assets/TeamImage26.jpeg";
@@ -36,11 +36,11 @@ const TeamData = [
     position: "General Secretary",
     image: Image3,
   },
-  {
-    name: "Mr. Dorchi Ngomba",
-    position: "Secretary",
-    image: Image23,
-  },
+  // {
+  //   name: "Mr. Dorchi Ngomba",
+  //   position: "Secretary",
+  //   image: Image23,
+  // },
   {
     name: "Mr.Sanu kaji Thapa",
     position: "Advisor",
@@ -57,7 +57,7 @@ const TeamData = [
     image: Image24,
   },
   {
-    name: "Mr. Pasang Phonto Gurung",
+    name: "Bir Bahadur Tamang",
     position: "Central Committee Member",
     image: Image21,
   },
