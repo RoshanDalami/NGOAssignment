@@ -21,6 +21,11 @@ import Image19 from "../assets/cardImage19.jpeg"
 import Image20 from "../assets/cardImage20.jpeg"
 import Image21 from "../assets/cardImage21.jpeg"
 import Image22 from "../assets/cardImage22.jpeg"
+import Image23 from "../assets/CardImage23.jpeg"
+import Image24 from "../assets/CardImage24.jpeg"
+import Image25 from "../assets/CardImage25.jpeg"
+import Image26 from "../assets/CardImage26.jpeg"
+
 const Data = [
     {
         title : 'MUN Conference 2024',
@@ -122,6 +127,26 @@ const Data = [
         title : 'International Youth Day 2023',
         Description : "International Youth Day is an annual observance dedicated to celebrating the contributions, potential, and achievements of young people around the world. Recognized on August 12th, it provides a platform to raise awareness about the challenges and issues faced by youth, while also promoting their engagement in various social, political, and economic spheres.",
         image : Image18
+    },
+      {
+        title : '13th International Summer School on Digital Government',
+        Description : "Participated in an international summer school focused on Government 3.0, ICT-enabled governance, Open Data, AI, and emerging technologies, gaining insights through expert sessions, workshops, and interactive learning.",
+        image : Image23
+    },
+    {
+        title : '13th International Summer School on Digital Government',
+        Description : "Explored policy modelling, information management, data-driven decision making, transparency, privacy, and disruptive ICTs, while engaging with internationally recognized researchers and professionals in digital governance.",
+        image : Image24
+    },
+    {
+        title : '13th International Summer School on Digital Government',
+        Description : "Engaged with international researchers, professionals, and experts in digital governance, exchanging perspectives and building connections around ICT, emerging technologies, and the future of Government 3.0.",
+        image : Image25
+    },
+    {
+        title : '13th International Summer School on Digital Government',
+        Description : "Connected with international participants, researchers, and professionals, sharing experiences and perspectives while exploring the collaborative and cultural side of the OpenGov2026 summer school in Samos, Greece.",
+        image : Image26
     },
     
 

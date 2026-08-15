@@ -8,13 +8,12 @@ import Image6 from "../assets/TeamImage6.jpeg";
 // import Image7 from '../assets/TeamImage7.jpg'
 import Image11 from "../assets/TeamImage11.jpg";
 import Image12 from "../assets/TeamImage12.jpeg";
-import Image20 from "../assets/TeamImage20.jpeg";
 import Image21 from "../assets/TeamImage21.jpeg";
 // import Image23 from "../assets/TeamImage23.jpeg";
 import Image24 from "../assets/TeamImage24.jpeg";
 import Image25 from "../assets/TeamImage25.jpeg";
-import Image26 from "../assets/TeamImage26.jpeg";
 import Image27 from "../assets/TeamImage27.jpeg";
+
 const TeamData = [
   {
     name: "Mr. Naresh Rijal",
@@ -27,7 +26,7 @@ const TeamData = [
     image: Image1,
   },
   {
-    name: "Mr. Mahesh Pande",
+    name: "Ms. Pragya Kandel",
     position: "Executive Vice-President",
     image: Image27,
   },
@@ -46,25 +45,25 @@ const TeamData = [
     position: "Advisor",
     image: Image5,
   },
-  // {
-  //   name: "Mr. Bhupal Bhadur Thapa Magar",
-  //   position: "International Relation Representative",
-  //   image: Image25,
-  // },
   {
-    name: "Lopsang Bhote",
-    position: "Central Committee Member",
+    name: "Mr. Ram Prasad Marasini",
+    position: "Policy Advisor",
+    image: Image25,
+  },
+  {
+    name: "Mr Tanka Prasad Poudel",
+    position: "Senior Researcher",
     image: Image24,
   },
   {
-    name: "Bir Bahadur Tamang",
-    position: "Central Committee Member",
+    name: "Mr. Temba Sherpa ",
+    position: "Digital Researcher",
     image: Image21,
   },
 
   {
-    name: "Mr. Pasang Nurbu Sherpa",
-    position: "Special Advisor",
+    name: "Ms. Phu Dhoma Gurung",
+    position: "Environment and Health Researcher",
     image: Image11,
   },
   {
@@ -72,11 +71,11 @@ const TeamData = [
     position: "International  committee and Life time Health Advisor",
     image: Image12,
   },
-  {
-    name: "Mr. Lalit Roka ",
-    position: "Central Committee Member",
-    image: Image26,
-  },
+  // {
+  //   name: "Mr. Lalit Roka ",
+  //   position: "Central Committee Member",
+  //   image: Image26,
+  // },
   {
     name: "Hon'ble Hira Gurung",
     position: "Member",
