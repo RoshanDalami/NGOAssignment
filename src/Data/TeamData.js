@@ -5,7 +5,7 @@ import Image3 from "../assets/TeamImage3.jpeg";
 import Image4 from "../assets/TeamImage4.jpg";
 import Image5 from "../assets/TeamImage5.jpeg";
 import Image6 from "../assets/TeamImage6.jpeg";
-// import Image7 from '../assets/TeamImage7.jpg'
+import Image7 from '../assets/TeamImage7.jpg'
 import Image11 from "../assets/TeamImage11.jpg";
 import Image12 from "../assets/TeamImage12.jpeg";
 import Image21 from "../assets/TeamImage21.jpeg";
@@ -89,8 +89,8 @@ const TeamData = [
   {
     name: "Mr. Roshan Dalami",
     position: "Member",
-    image:
-      "https://firebasestorage.googleapis.com/v0/b/weugly-94422.appspot.com/o/bamya2ndLot.jpg?alt=media&token=76cd814b-f93d-46c1-857c-26e8197a1b28",
+    image: Image7
+
   },
 ];
 

@@ -1,6 +1,7 @@
 import React from "react";
 import classes from "./About.module.css";
 import Logo from "../assets/logo.jpeg";
+import InvestorlistLogo from "../assets/logo_investor_list_inversed.svg";
 
 function About() {
   return (
@@ -36,9 +37,41 @@ function About() {
           Global Sustainable Development
           </p>
         </div>
+
+        {/* ── Partners & Resources ──────────────────────── */}
+        <div className={classes.partnersSection}>
+          <h1 className={classes.partnersHead}>Partners & Resources</h1>
+          <p className={classes.partnersSubtitle}>
+            Organizations and platforms we collaborate with
+          </p>
+          <div className={classes.partnersGrid}>
+            <div className={classes.partnerCard}>
+              <a
+                href="https://www.investorlist.com"
+                target="_blank"
+                className={classes.partnerLogoLink}
+              >
+                <img
+                  src={InvestorlistLogo}
+                  alt="Investorlist.com"
+                  className={classes.partnerLogo}
+                />
+              </a>
+              <span className={classes.partnerType}>Investorlist.com</span>
+              <p className={classes.partnerDesc}>
+                Investorlist.com provides structured data on active investors
+                globally, segmented by geography, sector, and investment stage.
+                The platform helps users quickly identify relevant investors
+                without having to source and organise the data themselves.
+              </p>
+            </div>
+          </div>
+        </div>
+
       </div>
     </>
   );
 }
 
 export default About;
+

@@ -18,5 +18,12 @@
 @media screen and (max-width:700px) {
     .cards{
         grid-template-columns: 1fr;
+        margin-top:50px;
+    }
+    .head{
+        margin-top:25px;
+        font-size: 40px;
+        letter-spacing: 2px;
+
     }
 }

@@ -11,7 +11,7 @@
     font-size: 50px;
     letter-spacing: 2px;
     font-family: 'Roboto Mono', monospace;
-    text-shadow: 3px 4px #00000054;
+    /* text-shadow: 3px 4px #00000054; */
 }
 .image{
     border-radius: 60%;
@@ -28,7 +28,7 @@
     letter-spacing: 2px;
     color: #000;
     text-align: center;
-    text-shadow: 2px 2px #00000054;
+    /* text-shadow: 2px 2px #00000054; */
 
 }
 .works{
@@ -52,11 +52,157 @@
     margin-right: 10px;
 }
 @media screen and (max-width:700px) {
-    .workList{
-        margin-left:100px
+    .head {
+        font-size: 24px;
+        letter-spacing: 1px;
     }
-    .image{
+    .maintext {
+        font-size: 16px;
+        padding: 20px 20px;
+    }
+    .workHead {
+        font-size: 22px;
+        letter-spacing: 4px;
+        margin-bottom: 20px;
+    }
+    .workList {
+        margin-left: 20px;
+        font-size: 16px;
+    }
+    .workList::before {
+        font-size: 16px;
+    }
+    .image {
         width: 200px;
         height: 200px;
+    }
+}
+
+/* ── Partners & Resources Section ─────────────────────────── */
+.partnersSection {
+    margin-top: 50px;
+    padding: 40px 30px 50px;
+    background: linear-gradient(to bottom, #f7f7f7, #8241dd10);
+    border-top: 3px solid #8241dd40;
+}
+
+.partnersHead {
+    font-size: 40px;
+    letter-spacing: 8px;
+    font-family: 'Roboto Mono', monospace;
+    margin-bottom: 8px;
+    text-decoration: underline;
+}
+
+.partnersSubtitle {
+    font-size: 16px;
+    color: #64748b;
+    letter-spacing: 1px;
+    margin-bottom: 32px;
+    opacity: 0.85;
+}
+
+.partnersGrid {
+    display: flex;
+    justify-content: center;
+    padding: 0 40px;
+}
+
+.partnerCard {
+    max-width: 620px;
+    width: 100%;
+    background: #fff;
+    border-radius: 12px;
+    padding: 32px 36px;
+    box-shadow:
+        0 2px 8px rgba(0, 0, 0, 0.05),
+        0 6px 24px rgba(130, 65, 221, 0.07);
+    border: 1px solid #e2e8f0;
+    text-align: left;
+    transition: box-shadow 0.3s ease, transform 0.2s ease, border-color 0.3s ease;
+}
+
+.partnerCard:hover {
+    box-shadow:
+        0 4px 12px rgba(0, 0, 0, 0.08),
+        0 12px 36px rgba(130, 65, 221, 0.14);
+    transform: translateY(-2px);
+    border-color: #8241dd40;
+}
+
+/* Logo displayed directly — no box or container */
+.partnerLogoLink {
+    display: inline-block;
+    margin-bottom: 14px;
+    transition: opacity 0.2s ease;
+}
+.partnerLogoLink:hover {
+    opacity: 0.8;
+}
+
+.partnerLogo {
+    height: 40px;
+    width: auto;
+    display: block;
+}
+
+.partnerType {
+    display: block;
+    width: fit-content;
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #6d28d9;
+    background: #8241dd12;
+    padding: 3px 10px;
+    border-radius: 4px;
+    white-space: nowrap;
+    margin-bottom: 14px;
+}
+
+.partnerDesc {
+    font-size: 15px;
+    line-height: 1.7;
+    color: #475569;
+    margin: 0;
+    letter-spacing: 0.3px;
+    text-align: left;
+}
+
+/* ── Partners Responsive ──────────────────────────────────── */
+@media screen and (max-width:700px) {
+    .partnersSection {
+        margin-top: 30px;
+        padding: 28px 16px 36px;
+    }
+
+    .partnersHead {
+        font-size: 22px;
+        letter-spacing: 4px;
+        margin-bottom: 6px;
+    }
+
+    .partnersSubtitle {
+        font-size: 13px;
+        margin-bottom: 20px;
+    }
+
+    .partnersGrid {
+        padding: 0;
+    }
+
+    .partnerCard {
+        padding: 24px 18px;
+    }
+
+    .partnerLogo {
+        height: 32px;
+    }
+
+    .partnerDesc {
+        font-size: 13.5px;
+        line-height: 1.6;
+        text-align: left;
     }
 }
