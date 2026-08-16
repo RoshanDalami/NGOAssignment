@@ -1,0 +1,595 @@
+/* =========================================================
+   DigiGov2026 Modal — Light Theme, Matching Site Design
+   Site palette: dark navbar (#212529), purple nav hover (#AA77FF),
+   blue accent (#0943C0), green (#07aa43), warm cream (#faedcd),
+   white page background, Bootstrap typography.
+   ========================================================= */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;600;700&family=Open+Sans:wght@400;600;700&display=swap');
+
+/* ── Overlay ─────────────────────────────────────────────── */
+.overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  background: rgba(10, 15, 40, 0.55);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  animation: overlayFadeIn 0.3s ease both;
+  overflow: hidden;
+}
+
+@keyframes overlayFadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+/* ── Modal Card ──────────────────────────────────────────── */
+.modal {
+  position: relative;
+  width: 100%;
+  max-width: 760px;
+  max-height: 92vh;
+  overflow-y: auto;
+  border-radius: 16px;
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  box-shadow:
+    0 4px 6px rgba(0, 0, 0, 0.04),
+    0 20px 60px rgba(0, 0, 0, 0.18),
+    0 0 0 1px rgba(170, 119, 255, 0.08);
+  animation: modalSlideUp 0.4s cubic-bezier(0.16, 1, 0.3, 1) both;
+  scrollbar-width: thin;
+  scrollbar-color: #AA77FF transparent;
+}
+
+.modal::-webkit-scrollbar { width: 4px; }
+.modal::-webkit-scrollbar-track { background: #f8fafc; }
+.modal::-webkit-scrollbar-thumb { background: #AA77FF; border-radius: 4px; }
+
+@keyframes modalSlideUp {
+  from {
+    opacity: 0;
+    transform: translateY(28px) scale(0.97);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+/* ── Close Button ────────────────────────────────────────── */
+.closeBtn {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  z-index: 10;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  border: 1.5px solid #e2e8f0;
+  background: rgba(255, 255, 255, 0.9);
+  color: #64748b;
+  font-size: 16px;
+  line-height: 1;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.2s, color 0.2s, border-color 0.2s, transform 0.2s;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+}
+.closeBtn:hover {
+  background: #fee2e2;
+  color: #ef4444;
+  border-color: #fca5a5;
+  transform: scale(1.1) rotate(90deg);
+}
+
+/* ── Hero Image ──────────────────────────────────────────── */
+.imageHero {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 16px 16px 0 0;
+  flex-shrink: 0;
+}
+
+.mainImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 30%;
+  display: block;
+  transition: transform 0.6s ease;
+}
+
+.modal:hover .mainImage {
+  transform: scale(1.02);
+}
+
+/* Gradient overlay — lighter so the image stays vivid */
+.imageOverlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.0) 0%,
+    rgba(0, 0, 0, 0.12) 45%,
+    rgba(0, 0, 0, 0.65) 100%
+  );
+}
+
+/* ── Conference Badge (overlaid on image bottom) ─────────── */
+.conferenceBadge {
+  position: absolute;
+  bottom: 18px;
+  left: 22px;
+  right: 22px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.badgeLeft {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+/* Site navbar color = #212529 dark; use that + purple accent */
+.eventYear {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 11px;
+  border-radius: 999px;
+  background: #212529;
+  color: #AA77FF;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  width: fit-content;
+  border: 1px solid rgba(170,119,255,0.4);
+}
+
+.eventYear::before {
+  content: '';
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #AA77FF;
+  animation: pulse 1.8s infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50%       { opacity: 0.45; transform: scale(0.65); }
+}
+
+.imageTitle {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: 0.01em;
+  line-height: 1.1;
+  text-shadow: 0 2px 10px rgba(0,0,0,0.5);
+  margin: 0;
+}
+
+.locationBadge {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 5px 11px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(8px);
+  color: rgba(255, 255, 255, 0.92);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  white-space: nowrap;
+  flex-shrink: 0;
+  align-self: flex-end;
+}
+
+/* ── Top accent stripe ───────────────────────────────────── */
+/* Thin stripe matching the site's dark navbar at the very top */
+.modal::before {
+  content: '';
+  display: block;
+  height: 0px; /* hidden — image fills top */
+}
+
+/* ── Body Content ────────────────────────────────────────── */
+.body {
+  padding: 24px 28px 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  background: #fff;
+}
+
+/* Subtitle row with thin divider lines */
+.subtitleRow {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.dividerLine {
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(90deg, #AA77FF, #e2e8f0);
+}
+
+.subtitle {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  color: #0943C0;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  flex-shrink: 0;
+  margin: 0;
+}
+
+/* Description */
+.description {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14.5px;
+  line-height: 1.75;
+  color: #374151;
+  margin: 0;
+  text-align: justify;
+}
+
+/* ── Tags ────────────────────────────────────────────────── */
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+}
+
+.tag {
+  padding: 4px 12px;
+  border-radius: 999px;
+  border: 1.5px solid #AA77FF;
+  background: #f5f0ff;
+  color: #6b21a8;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 11.5px;
+  font-weight: 600;
+  transition: background 0.2s, border-color 0.2s, transform 0.15s;
+}
+.tag:hover {
+  background: #ede9fe;
+  border-color: #7c3aed;
+  transform: translateY(-1px);
+  color: #5b21b6;
+}
+
+/* ── Thumbnail Strip ─────────────────────────────────────── */
+.thumbnailStrip {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+}
+
+.thumbnail {
+  aspect-ratio: 4 / 3;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1.5px solid #e2e8f0;
+  position: relative;
+  cursor: pointer;
+}
+
+.thumbnail img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.35s ease;
+  display: block;
+}
+
+.thumbnail:hover img {
+  transform: scale(1.07);
+}
+
+.thumbnailOverlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(9,67,192,0.35) 0%, transparent 65%);
+  opacity: 0;
+  transition: opacity 0.25s;
+}
+.thumbnail:hover .thumbnailOverlay {
+  opacity: 1;
+}
+
+/* ── Footer / CTA ────────────────────────────────────────── */
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding-top: 16px;
+  border-top: 1px solid #f1f5f9;
+}
+
+.footerNote {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  color: #94a3b8;
+  margin: 0;
+}
+
+.footerNote strong {
+  color: #475569;
+  font-weight: 600;
+}
+
+/* CTA button — uses site's dark navbar color with purple accent */
+.ctaBtn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 22px;
+  border-radius: 8px;
+  border: none;
+  background: #212529;
+  color: #fff;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+  cursor: pointer;
+  white-space: nowrap;
+  letter-spacing: 0.04em;
+  box-shadow: 0 2px 8px rgba(33,37,41,0.25);
+  transition: background 0.2s, box-shadow 0.2s, transform 0.15s;
+  text-transform: uppercase;
+}
+
+.ctaBtn:hover {
+  background: #AA77FF;
+  box-shadow: 0 4px 16px rgba(170,119,255,0.45);
+  transform: translateY(-1px);
+  color: #fff;
+  text-decoration: none;
+}
+
+.ctaBtn:active {
+  transform: translateY(0);
+}
+
+.ctaArrow {
+  font-size: 15px;
+  transition: transform 0.2s;
+}
+.ctaBtn:hover .ctaArrow {
+  transform: translateX(3px);
+}
+
+/* ── Responsive ──────────────────────────────────────────── */
+
+/* ─ Tablet (601px – 1024px) ─────────────────────────────── */
+@media (min-width: 601px) and (max-width: 1024px) {
+  .overlay {
+    padding: 12px;
+    align-items: center;
+  }
+
+  .modal {
+    max-width: 680px;
+    max-height: 92vh;
+  }
+
+  .imageHero {
+    height: 260px;
+  }
+
+  .imageTitle {
+    font-size: 24px;
+  }
+
+  .body {
+    padding: 20px 24px 24px;
+    gap: 16px;
+  }
+
+  .description {
+    font-size: 14px;
+  }
+}
+
+/* ─ Mobile portrait (≤600px) ────────────────────────────── */
+@media (max-width: 600px) {
+  .overlay {
+    padding: 20px 14px;
+    /* Center the modal — NOT full-page */
+    align-items: center;
+    justify-content: center;
+    /* Safe area for notched/punch-hole phones */
+    padding-bottom: max(20px, env(safe-area-inset-bottom));
+    padding-top: max(20px, env(safe-area-inset-top));
+  }
+
+  .modal {
+    border-radius: 14px;
+    /* Key: cap height so modal floats as a card, not full-page */
+    max-height: 78vh;
+    height: auto;
+    width: calc(100% - 8px);
+  }
+
+  .imageHero {
+    height: 150px;
+    border-radius: 14px 14px 0 0;
+  }
+
+  .imageTitle {
+    font-size: 17px;
+  }
+
+  .eventYear {
+    font-size: 10px;
+    padding: 3px 8px;
+  }
+
+  .conferenceBadge {
+    flex-direction: column;
+    align-items: flex-start;
+    bottom: 10px;
+    left: 12px;
+    right: 12px;
+    gap: 4px;
+  }
+
+  .locationBadge {
+    align-self: flex-start;
+    font-size: 10px;
+    padding: 3px 8px;
+  }
+
+  .body {
+    padding: 14px 14px 16px;
+    gap: 10px;
+  }
+
+  /* Allow subtitle to wrap on very narrow screens */
+  .subtitle {
+    white-space: normal;
+    font-size: 10px;
+  }
+
+  .dividerLine {
+    display: none;
+  }
+
+  /* Clamp description to 3 lines to save vertical space */
+  .description {
+    font-size: 12.5px;
+    line-height: 1.55;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  /* Collapse to 3 small thumbnails */
+  .thumbnailStrip {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+  }
+
+  .thumbnail {
+    aspect-ratio: 3 / 2;
+  }
+
+  .footer {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 8px;
+    padding-top: 10px;
+  }
+
+  .ctaBtn {
+    justify-content: center;
+    padding: 10px;
+    font-size: 12px;
+  }
+
+  .footerNote {
+    text-align: center;
+    font-size: 10px;
+  }
+
+  .tags {
+    gap: 5px;
+  }
+
+  .tag {
+    font-size: 10px;
+    padding: 3px 8px;
+  }
+
+  .closeBtn {
+    width: 28px;
+    height: 28px;
+    font-size: 13px;
+    top: 10px;
+    right: 10px;
+  }
+}
+
+/* ─ Landscape phone (short viewport ≤ 500px tall) ───────── */
+@media (max-height: 500px) and (max-width: 900px) {
+  .overlay {
+    align-items: center;
+    padding: 8px;
+  }
+
+  .modal {
+    max-height: 96vh;
+    /* In landscape, reduce image height drastically to show content */
+    border-radius: 12px;
+  }
+
+  .imageHero {
+    height: 130px;
+  }
+
+  .imageTitle {
+    font-size: 17px;
+  }
+
+  .body {
+    padding: 12px 14px 16px;
+    gap: 10px;
+  }
+
+  .description {
+    font-size: 12.5px;
+    line-height: 1.55;
+    /* Limit lines in landscape to save space */
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .thumbnailStrip {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+  }
+
+  .tags {
+    gap: 5px;
+  }
+
+  .tag {
+    font-size: 10.5px;
+    padding: 2px 9px;
+  }
+
+  .footer {
+    padding-top: 10px;
+  }
+}
+
+

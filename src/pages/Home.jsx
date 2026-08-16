@@ -7,10 +7,12 @@ import Banner from "../Components/Banner";
 import Gallery from "../Components/Gallery";
 import MotiveArea from "../Components/MotiveArea";
 import President from "../Components/President";
+import DigiGovModal from "../Components/DigiGovModal";
 import classes from "./Home.module.css";
 function Home() {
   return (
     <>
+    <DigiGovModal />
     <Carousel className={classes.mainFrame}>
       <Carousel.Item className={classes.mainFrame}>
         <img className="d-block w-100" src={ImageFirst} alt="First slide" />
