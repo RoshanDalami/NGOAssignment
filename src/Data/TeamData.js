@@ -6,7 +6,7 @@ import Image4 from "../assets/TeamImage4.jpg";
 import Image5 from "../assets/TeamImage5.jpeg";
 import Image6 from "../assets/TeamImage6.jpeg";
 import Image7 from '../assets/TeamImage7.jpg'
-import Image11 from "../assets/TeamImage11.jpg";
+import Image11 from "../assets/TeamImage11.jpeg";
 import Image12 from "../assets/TeamImage12.jpeg";
 import Image21 from "../assets/TeamImage21.jpeg";
 // import Image23 from "../assets/TeamImage23.jpeg";
@@ -62,7 +62,7 @@ const TeamData = [
   },
 
   {
-    name: "Ms. Phu Dhoma Gurung",
+    name: "Ms. Tenzin Palden",
     position: "Environment and Health Researcher",
     image: Image11,
   },
